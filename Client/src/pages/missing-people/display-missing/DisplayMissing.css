@@ -1,0 +1,30 @@
+.missing-people-display {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.missing-people-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.missing-person-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.missing-person-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.missing-person-card p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
