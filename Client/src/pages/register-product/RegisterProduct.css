@@ -1,0 +1,184 @@
+/* Page Header Styling */
+.product-header {
+    background: radial-gradient(#fff, #ffd6d6);
+    width: 100vw;
+}
+
+/* Container Styling */
+.product-container {
+    height: 100vh;
+    padding-right: 0.5rem;
+    /* max-width: 1400px; */
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* height: 100vh; */
+}
+
+/* Heading Styling */
+.product-registration-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* Form Styling */
+.product-form {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Center form elements */
+}
+
+/* Form Group Styling */
+.product-form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center form controls */
+}
+
+/* Label Styling */
+.product-label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+    text-align: center;
+}
+
+/* Input Field Styling */
+.product-field {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #e1e2e3;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    width: 100%;
+    /* Full width of the container */
+    max-width: 350px;
+    /* Limit input width */
+}
+
+.product-field:focus {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+/* Button Styling */
+.product-register-button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #d9534f;
+    text-shadow: none;
+    background: radial-gradient(#e5a6a6, #ea9f9f);
+    cursor: pointer;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+    margin: auto;
+    display: block;
+}
+
+.product-register-button:hover,
+.product-register-button:focus {
+    color: #d9534f;
+    background: radial-gradient(#ffd6d6, #ff9494);
+    border: 1px solid #ff9494;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ff9494, 0 0 20px #ff9494, 0 0 50px #ff9494,
+        0 0 100px #ff9494;
+}
+
+/* Barcode Section Styling */
+.product-barcode-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.product-barcode-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-barcode-message {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Form Row Styling */
+.form-row {
+    display: flex;
+    justify-content: center;
+    /* Center form rows */
+    gap: 20px;
+    flex-wrap: wrap;
+    /* Wrap items if necessary */
+    width: 100%;
+}
+
+.product-form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center individual form fields */
+}
+
+/* Barcode Container */
+.barcode-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Small Button for Barcode Download */
+.small-download-barcode-button {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+/* .small-download-barcode-button:hover {
+    background-color: #45a049;
+} */
+
+.product-barcode-message {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}

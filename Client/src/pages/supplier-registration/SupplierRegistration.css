@@ -1,0 +1,137 @@
+.supplier-header{
+    background: radial-gradient(#fff, #ffd6d6);
+    width: 100vw;
+}
+
+.supplier-container{
+    padding-left: 0.5rem;
+    height: 100vh;
+    padding-right: 0.5rem;
+    /* max-width: 1400px; */
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 100vh;
+}
+
+/* Heading Styling */
+.supplier-registration-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* Form Container Styling */
+.supplier-form {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+/* Form Group Styling */
+.supplier-form-group {
+    margin-bottom: 15px;
+    margin-right: 15px;
+    justify-self: center;
+}
+
+/* Label Styling */
+.supplier-label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+
+
+/* Updated Input Field Styling */
+.supplier-field {
+    width: 30vw;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #e1e2e3;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+}
+
+.supplier-field:focus {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+/* Textarea Specific Styling */
+textarea.supplier-field {
+    min-height: 80px;
+    resize: vertical;
+}
+
+/* Button Styling */
+.supplier-register-button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #d9534f;
+    text-shadow: none;
+    background: radial-gradient(#e5a6a6, #ea9f9f);
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    /* margin-left: 10rem; */
+    user-select: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.supplier-register-button:hover,
+.supplier-register-button:focus {
+    color: #d9534f;
+    background: radial-gradient(#ffd6d6, #ff9494);
+    border: 1px solid #ff9494;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ff9494, 0 0 20px #ff9494, 0 0 50px #ff9494,
+        0 0 100px #ff9494;
+}
+
+/* Error Message Styling */
+.supplier-error-message {
+    color: #d9534f;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .supplier-form {
+        padding: 15px;
+    }
+
+    .supplier-registration-heading {
+        font-size: 20px;
+    }
+
+    .supplier-register-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

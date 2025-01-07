@@ -1,0 +1,79 @@
+.display-missing-header{
+    background: radial-gradient(#fff, #ffd6d6);
+    /* width: 100vw; */
+}
+
+.display-missing-container {
+    height: max-content;
+    padding-right: 0.5rem;
+    /* max-width: 1400px; */
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* height: 100vh; */
+}
+
+.missing-people-display {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.missing-people-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.missing-person-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.missing-person-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.missing-person-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-details {
+    text-align: left;
+    width: 100%;
+}
+
+.card-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.card-details strong {
+    font-weight: bold;
+}

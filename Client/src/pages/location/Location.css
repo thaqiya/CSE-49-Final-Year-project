@@ -1,0 +1,61 @@
+/* .location-page{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+} */
+
+
+
+.location {
+    display: flex;
+    max-width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-color: white;
+}
+
+
+#map {
+    height: 100vh;
+    flex: 3;
+    /* width: 100%; */
+    /* border-right: solid #ddd; */
+    margin-bottom: 0;
+}
+
+
+.relief-camp-list {
+    height: 95%;
+    /* width: 25rem; */
+    flex: 1;
+    padding: 10px;
+    background: radial-gradient(#fff, #ffd6d6);
+    overflow-y: auto;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* ul li button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+} */
+
+ul li button:hover {
+    background-color: #0056b3;
+}

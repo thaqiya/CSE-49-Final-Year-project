@@ -1,0 +1,102 @@
+.home-container {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 100vh;
+}
+
+.home-header {
+    background: radial-gradient(#fff, #ffd6d6);
+    /* width: 100vw; */
+}
+
+.home-header .row {
+    margin-top: 4rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row .col-4{
+    margin: 1rem;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 2rem 0;
+}
+
+.col-2 h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #563434;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    gap: 2rem;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 3rem;
+    position: relative;
+    line-height: 4rem;
+    color: #555;
+}
+
+.title::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.brands {
+    margin: 100px auto;
+}
+
+/* .goonj-home-img{
+    height: 25rem;
+    width: 50rem;
+} */

@@ -1,0 +1,11 @@
+.product-info-container{
+    padding-left: 0.5rem;
+    height: 100vh;
+    padding-right: 0.5rem;
+    /* max-width: 1400px; */
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 100vh;
+}

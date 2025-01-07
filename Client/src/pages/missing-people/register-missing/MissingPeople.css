@@ -1,0 +1,116 @@
+.missing-people-header{
+    background: radial-gradient(#fff, #ffd6d6);
+    width: 100vw;
+}
+
+.missing-people-container{
+    height: 100vh;
+    padding-right: 0.5rem;
+    /* max-width: 1400px; */
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* height: 100vh; */
+}
+
+.missing-people-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.missing-people-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+/* .missing-people-form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.missing-people-form-group.full-width {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 1rem;
+    /* Full width for the "Upload Image" field */
+}
+
+.missing-people-form-group {
+    width: calc(20% - 8px);
+    /* Two fields per row */
+    display: flex;
+    flex-direction: column;
+}
+
+.missing-people-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.missing-people-field {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #e1e2e3;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    width: 100%;
+    /* Full width of the container */
+    max-width: 350px;
+    /* Limit input width */
+}
+
+.missing-people-field:focus {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+.missing-people-form{
+    background-color: #ffffff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* align-items: center; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.missing-people-form-row {
+    display: flex;
+    justify-content: center;
+    /* Center form rows */
+    gap: 2px;
+    flex-wrap: wrap;
+    /* Wrap items if necessary */
+    width: 70%;
+}
+
+.missing-people-form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center individual form fields */
+}
+
+
