@@ -5,7 +5,6 @@ This project aims to create a centralized disaster relief application to efficie
 
 ### Key Features
 - **Inventory Management**: Tracks relief materials using barcodes.
-- **Real-Time Notifications**: Sends updates via Firebase.
 - **Missing Person Tracking**: Reports and tracks missing individuals.
 - **Aid Camp Locator**: Displays nearby camps using the user’s location.
 - **AI-Enabled Queries**: Assists users with information about volunteering or camp locations.
